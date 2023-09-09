@@ -18,7 +18,7 @@ def get_info(request):
         "current_day": datetime.utcnow().strftime('%A'),
         "utc_time": current_utc_time,
         "track": track,
-        "github_file_url": "https://github.com/kihuni/myproject/blob/main/myapp/views.py",
+        "github_file_url": "https://github.com/kihuni/myproject/blob/main/myproject/myapp/views.py",
         "github_repo_url": "https://github.com/kihuni/myproject",
         "status_code": 200
     }
